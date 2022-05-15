@@ -105,10 +105,8 @@ void start() {
         if (m.uMsg == WM_LBUTTONDOWN) {
             //输入左键
             if (m.x >= 190 && m.x <= 410 && m.y >= 490 - 25 && m.y <= 560 - 25) {
-                outtextxy(0, 0, "开始"); //测试
                 game();
             } else if (m.x >= 190 && m.x <= 410 && m.y >= 590 - 25 && m.y <= 660 - 25) {
-                outtextxy(0, 0, "结束"); //测试
                 over();
             }
         }
